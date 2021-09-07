@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 extern int Ejercicio3asm(int N,int*numeros);
 
 int main (int argc,char **argv){
@@ -28,5 +26,7 @@ int main (int argc,char **argv){
     printf("\n es : %d\n",suma_total);
     
     
+
+    free(numeros);
     return 0;
 }

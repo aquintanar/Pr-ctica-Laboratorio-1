@@ -1,7 +1,7 @@
-
+global Ejercicio3asm
 section .text
 
-    global Ejercicio3asm.asm
+   
 
 Ejercicio3asm:
 
@@ -38,11 +38,10 @@ Ejercicio3asm:
     exit:
 
     ;Epilogo
-
     pop ebx
     pop edi
     pop esi
-    pop esp, ebp
+    mov esp,ebp
     pop ebp
-    
+
     ret
